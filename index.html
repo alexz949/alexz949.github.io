@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
         <title>AlexZ</title>
+        <link rel="styleSheet"  href="style.css" />
 
     </head>
     <body>
-        <h1>github pages，好用！</h1>
-        <div id="first">
+        <section class="textCenter">
+            <h1>github pages，免费！？</h1>
+        </section>
+        <div id="first" class="box">
             <p>故事要从一个很久之前的问题说起：空文件能填满c盘吗？
                 我觉得这个问题很有意思于是决定去看看SSD的工作原理。
-                呃呃为什么句号没有黄方格？然后发现SSD写入和读出都是按照bit位操作的
+                呃呃为什么句号没有黄方格？
+            </p>
+            <p>然后发现SSD写入和读出都是按照bit位操作的
                 然后接下来就看到有关于ECC的东西。原来ECC是通过bit位来检查错误和纠正错误的
                 怎们说呢，这个按照0，1来纠正错误很有意思，因为225在讲编码的时候有学习过hamming code，dual code，甚至simplex code的知识。
-                而hamming code的检查和纠正也是基于二进制来进行的，然后我就想不会ECC的纠正原理是hamming code吧，然后查了一下，发现确实有些简单的ECC就是用hamming code来纠正错误的
+            </p>
+            <p>而hamming code的检查和纠正也是基于二进制来进行的，然后我就想不会ECC的纠正原理是hamming code吧，然后查了一下，发现确实有些简单的ECC就是用hamming code来纠正错误的
                 觉得这个发现很有意思，于是决定写下来。
             </p>
+            <p>这个paragraph是真的不好玩话说这个间距是一定要用css设置吗呃呃</p>
         </div>
-        <a href="https://zhuanlan.zhihu.com/p/114237145"><img src="SSDtest.png" /></a>
-        <a href="https://zhuanlan.zhihu.com/p/114237145">超链接测试</a>
-
-
+        <div class="center">
+            <a href="https://zhuanlan.zhihu.com/p/114237145"><img src="SSDtest.png" height="500" width="500" /></a>
+        </div>
+        <a href="https://zhuanlan.zhihu.com/p/114237145">知乎的超链接测试</a>
+        <p>话说回来为什么有超链接的时候鼠标就会有可点击的图标？他是怎么知道我鼠标移动到这个坐标了？或者更加是他怎么知道超链接这个是可点击的呢是浏览器调用设置的吗？话说这个网址的小标志是怎么加的？</p>
+        <p>github page推的jekyll是什么？感觉用html写的文字看起来很奇怪，感觉不如...markdown，画质</p>
+        
     </body>
 
 </html>

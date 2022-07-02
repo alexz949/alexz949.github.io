@@ -1,4 +1,28 @@
 #first {
-    color: cyan;
-    font-size: 24px;
+    color:blue;
+    font-size: 20px;
+    padding: auto;
+}
+.center{
+    border-radius: 50px;
+    width:700px;
+    height: 500px;
+    border:1px dashed #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.textCenter {
+    text-align: center;
+    color:var(--blue);
+}
+:root {
+    --blue: #396dff;
+
+}
+.box {
+    border-radius: 10px;
+    margin: 1px;
+    border: 4px solid brown;
+    padding: 10px;
 }
