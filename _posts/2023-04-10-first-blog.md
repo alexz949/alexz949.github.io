@@ -6,6 +6,7 @@ categories: jekyll update
 ---
 This is my first blog posting in my github.io. I just want to test whether these sentences can show up in my website. the following objective
 is about updating the time and also uploading some pictures.
+Let me see if I can make this new updates from other devices.
 
 
 
