@@ -6,6 +6,8 @@ categories: jekyll update
 ---
 This is my first blog posting in my github.io. I just want to test whether these sentences can show up in my website. the following objective
 is about updating the time and also uploading some pictures.
+中文有可能吗
+
 
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
