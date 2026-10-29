@@ -17,11 +17,11 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=lcFgmFEA
 
 <div class="publications">
 
-<h2 class="bibliography-section">preprints &amp; manuscripts</h2>
+<h2 class="bibliography-section">preprints</h2>
 
 {% bibliography --query @*[status=preprint] %}
 
-<h2 class="bibliography-section">peer-reviewed</h2>
+<h2 class="bibliography-section">conference &amp; journal papers</h2>
 
 {% bibliography --query @*[status!=preprint] %}
 
