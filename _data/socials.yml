@@ -1,0 +1,6 @@
+# Social links shown on the about page and in search.
+# See the full list of supported fields in the al-folio docs (docs/CUSTOMIZE.md).
+
+email: zhanglixun67@gmail.com # your email address
+github_username: alexz949 # your GitHub user name
+rss_icon: true # comment this line to hide the RSS icon
