@@ -1,0 +1,13 @@
+# github_users shows a profile stats card from a third-party service; it only
+# showed a loading spinner for this account, so it is turned off.
+# github_users:
+#   - alexz949
+
+repo_description_lines_max: 2
+
+github_repos:
+  - alexz949/BasisServe-CALS
+  - alexz949/CP-Rounding
+  - alexz949/CP-ALS-QR
+  - alexz949/Compression
+  - alexz949/Wordle-Entropy
