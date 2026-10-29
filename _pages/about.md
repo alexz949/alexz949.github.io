@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm Alex Zhang. I'm interested in **machine learning**, **numerical linear algebra**, and **model compression**.
+I'm Lixun (Alex) Zhang. I'm interested in **machine learning**, **numerical linear algebra**, and **model compression**.
 
 I care about the structure underneath modern models: how they learn, how they scale, and how to make them leaner without losing what matters.
 
