@@ -4,7 +4,7 @@ Personal academic website of Lixun (Alex) Zhang, built with [al-folio](https://g
 
 - Edit the homepage: `_pages/about.md`
 - Write a post: add a file to `_posts/` named `YYYY-MM-DD-title.md`
-- Add papers: `_bibliography/papers.bib`, then set `nav: true` in `_pages/publications.md`
+- Add papers: `_bibliography/papers.bib` (add `status = {preprint}` for preprints)
 - Site settings: `_config.yml`, social links: `_data/socials.yml`
 
 Pushing to `main` runs `.github/workflows/deploy.yml`, which builds the site into the `gh-pages` branch.

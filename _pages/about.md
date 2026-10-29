@@ -9,7 +9,7 @@ profile:
   image: # put a photo in assets/img/ and write its file name here, e.g. prof_pic.jpg
   image_circular: false # crops the image to make it circular
 
-selected_papers: true # lists papers marked "selected={true}" in _bibliography/papers.bib
+selected_papers: false # the theme's block is titled "selected publications"; "selected papers" is added at the end of this page instead
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -32,3 +32,10 @@ I care about the structure underneath modern models: how they learn, how they sc
 - **Model compression**: pruning, low-rank structure, and other ways to cut cost while keeping the performance that actually matters.
 
 Code and experiments live on [GitHub](https://github.com/alexz949).
+
+<h2><a href="{{ '/papers/' | relative_url }}" style="color: inherit">selected papers</a></h2>
+
+<div class="publications">
+  {% bibliography --group_by none --query @*[selected=true && status!=preprint]* %}
+  {% bibliography --group_by none --query @*[selected=true && status=preprint]* %}
+</div>
