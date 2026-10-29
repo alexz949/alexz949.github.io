@@ -20,12 +20,12 @@ $$
 
 For this problem, we can first draw the recurrence table.
 
-| Level | Problem Size      | Cost Per Problem   | Total Cost         |
-| ----- | ----------------- | ------------------ | ------------------ |
-| 0     | $$n$$             | $$c\log^k n$$      | $$c\log^k n$$      |
-| 1     | $$n/2$$           | $$c\log^k (n/2)$$  | $$c\log^k (n/2)$$  |
-| d     | $$n/2^d$$         | $$c\log^k (n/2^d)$$ | $$c\log^k (n/2^d)$$ |
-| L     | $$n/2^L = 1$$     | $$c^\prime$$       | $$c^\prime$$       |
+| Level | Problem Size  | Cost Per Problem    | Total Cost          |
+| ----- | ------------- | ------------------- | ------------------- |
+| 0     | $$n$$         | $$c\log^k n$$       | $$c\log^k n$$       |
+| 1     | $$n/2$$       | $$c\log^k (n/2)$$   | $$c\log^k (n/2)$$   |
+| d     | $$n/2^d$$     | $$c\log^k (n/2^d)$$ | $$c\log^k (n/2^d)$$ |
+| L     | $$n/2^L = 1$$ | $$c^\prime$$        | $$c^\prime$$        |
 
 From this table, we can tell that the last level satisfies $$n/2^L = 1$$, so there are $$\log_2 n$$ levels in total. Based on this number, we can work out the total cost.
 
