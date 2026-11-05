@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a second-year M.S. student in the Department of Computer Science at Duke University, where I am a member of the [CEI Lab](https://cei.pratt.duke.edu/) advised by Dr. Yiran Chen. My research focuses on **LLM efficiency**, with an emphasis on low-rank structure: compressing model weights and KV-caches, and understanding what that structure reveals about how models work. I am motivated by making LLM inference cheaper and faster without giving up the quality that matters. Currently, I am working on KV-cache compression for efficient long-context inference.
+I'm a second-year M.S. student in the Department of Computer Science at Duke University, where I am a member of the [CEI Lab](https://cei.pratt.duke.edu/) advised by [Prof. Yiran Chen](https://ece.duke.edu/people/yiran-chen/). My research interests lie in **efficient machine learning**, with a particular focus on large language models. I am motivated by making modern AI systems faster, cheaper, and easier to deploy, while preserving the capabilities that matter. Currently, I am exploring efficient inference for large language models.
 
 I obtained a B.S. in Computer Science and Statistical Science from Wake Forest University, where I was fortunate to conduct undergraduate research advised by [Dr. Grey Ballard](https://users.wfu.edu/ballard/). Much of my work there focused on numerical linear algebra: developing efficient algorithms for CP tensor decomposition based on alternating least squares with QR, which led to a first-author paper in _SIAM Journal on Matrix Analysis and Applications_.
 
