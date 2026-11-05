@@ -6,7 +6,7 @@ subtitle: Machine learning · Numerical linear algebra · Model compression
 
 profile:
   align: right
-  image: # put a photo in assets/img/ and write its file name here, e.g. prof_pic.jpg
+  image: prof_pic.jpg # photo in assets/img/
   image_circular: false # crops the image to make it circular
 
 selected_papers: false # the theme's block is titled "selected publications"; "selected papers" is added at the end of this page instead
