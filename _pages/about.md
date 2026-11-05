@@ -35,14 +35,9 @@ I obtained a B.S. in Computer Science and Statistical Science from Wake Forest U
   @media (max-width: 575.98px) {
     .profile.float-right { float: none !important; max-width: 220px; margin: 0 auto 1rem; }
   }
-  .paper-box {
-    border: 1px solid var(--global-divider-color);
-    border-radius: 0.5rem;
-    padding: 1rem 1.25rem 0.25rem;
-    margin-bottom: 1.25rem;
-  }
-  .paper-box h3 { margin-top: 0; font-size: 1.15rem; }
 </style>
+
+{% include paper_box_style.liquid %}
 
 <h2 style="clear: both"><a href="{{ '/papers/' | relative_url }}" style="color: inherit">selected papers</a></h2>
 

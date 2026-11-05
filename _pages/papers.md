@@ -15,14 +15,18 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=lcFgmFEA
 
 {% include bib_search.liquid %}
 
-<div class="publications">
+{% include paper_box_style.liquid %}
 
-<h2 class="bibliography-section">publications</h2>
+<div class="paper-box">
+  <h2 class="bibliography-section">publications</h2>
+  <div class="publications">
+    {% bibliography --query @*[status!=preprint] %}
+  </div>
+</div>
 
-{% bibliography --query @*[status!=preprint] %}
-
-<h2 class="bibliography-section">preprints</h2>
-
-{% bibliography --query @*[status=preprint] %}
-
+<div class="paper-box">
+  <h2 class="bibliography-section">preprints</h2>
+  <div class="publications">
+    {% bibliography --query @*[status=preprint] %}
+  </div>
 </div>
