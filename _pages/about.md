@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Machine learning · Numerical linear algebra · Model compression
+subtitle: M.S. student in Computer Science, Duke University
 
 profile:
   align: right
@@ -23,15 +23,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm Lixun (Alex) Zhang. I'm interested in **machine learning**, **numerical linear algebra**, and **model compression**.
+I'm a second-year M.S. student in the Department of Computer Science at Duke University, where I am a member of the [CEI Lab](https://cei.pratt.duke.edu/) advised by Dr. Yiran Chen. My research focuses on **LLM efficiency**, with an emphasis on low-rank structure: compressing model weights and KV-caches, and understanding what that structure reveals about how models work. I am motivated by making LLM inference cheaper and faster without giving up the quality that matters. Currently, I am working on KV-cache compression for efficient long-context inference.
 
-I care about the structure underneath modern models: how they learn, how they scale, and how to make them leaner without losing what matters.
-
-- **Machine learning**: model behavior, training dynamics, and the design choices that shape capability and efficiency.
-- **Numerical linear algebra**: matrix structure, decompositions, and stability, the foundations under optimization and modern learning systems.
-- **Model compression**: pruning, low-rank structure, and other ways to cut cost while keeping the performance that actually matters.
-
-Code and experiments live on [GitHub](https://github.com/alexz949).
+I obtained a B.S. in Computer Science and Statistical Science from Wake Forest University, where I was fortunate to conduct undergraduate research advised by [Dr. Grey Ballard](https://users.wfu.edu/ballard/). Much of my work there focused on numerical linear algebra: developing efficient algorithms for CP tensor decomposition based on alternating least squares with QR, which led to a first-author paper in _SIAM Journal on Matrix Analysis and Applications_.
 
 <h2><a href="{{ '/papers/' | relative_url }}" style="color: inherit">selected papers</a></h2>
 
