@@ -32,7 +32,7 @@ latest_posts:
 
 I'm a second-year M.S. student in the Department of Computer Science at Duke University, where I am a member of the [CEI Lab](https://cei.pratt.duke.edu/) advised by [Prof. Yiran Chen](https://ece.duke.edu/people/yiran-chen/).
 
-My research interests lie in numerical linear algebra and efficient algorithms for foundation models, with an emphasis on structured computation and parallel algorithms. I am particularly interested in exploiting mathematical and computational structures to improve the efficiency of model training and inference.
+My research interests lie in numerical linear algebra and efficient algorithms for foundation models, with an emphasis on structured computation and parallel algorithms. I enjoy finding cool structures and playing matrix tricks on them :)
 
 I obtained a B.S. in Computer Science and Statistical Science from Wake Forest University, where I was fortunate to conduct undergraduate research advised by [Dr. Grey Ballard](https://users.wfu.edu/ballard/). Much of my work there focused on numerical linear algebra and tensor decompositions.
 
