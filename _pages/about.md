@@ -14,6 +14,7 @@ profile:
     <a href="mailto:zhanglixun67@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
     <a href="https://github.com/alexz949" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a>
     <a href="https://scholar.google.com/citations?user=lcFgmFEAAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
+    <a href="/assets/pdf/Lixun_Zhang_CV.pdf" title="CV" target="_blank"><i class="ai ai-cv"></i></a>
     </div>
 
 selected_papers: false # the theme's block is titled "selected publications"; "selected papers" is added at the end of this page instead
